@@ -1,14 +1,270 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Inicio</title>
-</head>
-<body>
-	<h1>Hola a todos este es mi blog</h1>
-	<p>Este es un blog para proba git y github en la parte de push al repositorio</p>
-	<p>Cuatro con nueve de la mañana primer error al hacer push</p>
-	<a href="about.html">Mas sobre mi</a>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"> <img src="./Assets/Logo.png" style="margin-left: 10px;"></a>
+      <ul class="nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#location">Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="cover d-flex justify-content-center align-items-center flex-column">
+      <h1>Breadffe</h1>
+
+      <p>The perfect place to have a coffee with cookies.</p>
+      <button class="btn btn-primary" onclick="location.href='more_products.html'">Get to know our products.</button>
+    </div>
+
+  </header>
+
+  <!--Cards-->
+  <br>
+  <section>
+    <h2>Offers of the day</h2>
+    <div class="container mt-5 mb-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div title="Image title" class="cover cover-small" style="background-image: url(./Assets/Cards/black_coffee.jpg);">
+              
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Black Coffee</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div title="Image title" class="cover cover-small" style="background-image: url(./Assets/Cards/coffe_with_milk-donut.jpg);">
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Coffe with Milk and a Donut</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div title="Image title" class="cover cover-small" style="background-image: url(./Assets/Cards/Espresso_with_fruit_bread.jpg);">
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Espresso with Fruit Bread</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div title="Image title" class="cover cover-small" style="background-image: url(./Assets/Cards/pan1.jpg);">
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Two Breads</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div title="Image title" class="cover cover-small" style="background-image: url(./Assets/Cards/cake-strawberries.jpg);">
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Strawberry cake</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </section>
+
+  <!--Form-->
+  <section>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-5">
+          <img src="./Assets/CoffeeMail.svg" alt="email send icon">
+        </div>
+
+        <div class="col-12 col-sm-6">
+          
+        <h3>Write us now!!!</h3>
+        <p>And request your order</p>
+        
+          <a href="#location">Go to map</a>
+      
+        <br><br>
+      <form action="">
+        <label for="email">Email address:</label>
+        <div class="d-flex">
+          <div class="flex-fill input_margin">
+
+            <input type="email" id="email" class="form-control" />
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+      
+</div>
+  </section>
+
+<!--Tira de elementos-->
+  <section>
+    <div class="container mt-5 mb-5">
+      <div class="product-stripe">
+        <div class="stripe-container">
+
+          <div class="card">
+            
+            <div title="Image title" class="cover cover-small" style="background-image: url(./Assets/Tira_de_Imagenes/cookies-with-chocolate.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Chocolate chip cookies</h5>
+              <span class="badge bg-info text-dark">Price: $3</span>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div title="Image title" class="cover cover-small" style="background-image: url(./Assets/Tira_de_Imagenes/pretzels.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Pretzels</h5>
+              <span class="badge bg-info text-dark">Price: $5</span>
+             <!-- <a href="./Assets/Tira_de_Imagenes/IMG-20191129-WA0004.jpg" download="imagen-Pame-sasque" class="btn btn-primary">Descargar</a>
+             -->
+            </div>
+          
+          </div>
+
+
+          <div class="card">
+            <div title="Image title" class="cover cover-small" style="background-image: url(./Assets/Tira_de_Imagenes/wholemeal-bread.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Wholemeal bread</h5>
+              <span class="badge bg-info text-dark">Price: $6</span>
+              
+            </div>
+          </div>
+
+
+
+          <div class="card">
+            <div title="Image title" class="cover cover-small" style="background-image: url(./Assets/Tira_de_Imagenes/sandwich-bread.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Sandwich bread</h5>
+              <span class="badge bg-info text-dark">Price: $4</span>
+            </div>
+          </div>
+
+
+
+          <div class="card">
+            <div title="Image title" class="cover cover-small" style="background-image: url(./Assets/Tira_de_Imagenes/tortucocha.jpg);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Tortuconchas</h5>
+              <span class="badge bg-info text-dark">Price: $7</span>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="container mt-5 mb-5+" id="location">
+      <h4>Find us here</h4>
+      <p>Unnamed Road, Yamalo-Nenets Autonomous Okrug, Rusia, 629700</p>
+      <div class="responsive-iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1864.8802193737558!2d70.84563550632856!3d66.85600873203515!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4482dbec7cdae329%3A0x8b80701ff1406fd4!2sPrichal&#39;naya%20Stenka%20Dlya%20Gruzovykh%20Sudov!5e0!3m2!1ses-419!2spy!4v1625003901859!5m2!1ses-419!2spy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
 </body>
+
+<footer>
+  <br><br><br><br>
+  <h3>Fuentes</h3>
+  <a href="https://www.freepik.es/fotos/comida">Foto de Comida creado por Racool_studio - www.freepik.es</a>
+  <h3>Pna para sandwich</h3>
+  <a href="https://www.freepik.es/fotos/comida">Foto de Comida creado por Racool_studio - www.freepik.es</a>
+  <h3>Pretzel</h3>
+  <a href="https://www.freepik.es/fotos/panaderia">Foto de Panadería creado por azerbaijan_stockers - www.freepik.es</a>
+  <h3>Galletas con chispas de chocolate</h3>
+  <a href="https://www.freepik.es/fotos/comida">Foto de Comida creado por wirestock - www.freepik.es</a>
+  <h3>Pastel</h3>
+  <a href="https://www.freepik.es/fotos/comida">Foto de Comida creado por KamranAydinov - www.freepik.es</a>
+  <a href="https://www.freepik.es/fotos/comida">Foto de Comida creado por prostooleh - www.freepik.es</a>
+  <a href="https://www.freepik.es/fotos/negocios">Foto de Negocios creado por peoplecreations - www.freepik.es</a>
+  <a href="https://www.freepik.es/fotos/negocios">Foto de Negocios creado por serhii_bobyk - www.freepik.es</a>
+  <a href="https://www.freepik.es/fotos/comida">Foto de Comida creado por peoplecreations - www.freepik.es</a>
+  <a href="https://www.freepik.es/fotos/comida">Foto de Comida creado por freepik - www.freepik.es</a>
+  <a href="https://www.freepik.es/fotos/comida">Foto de Comida creado por freepik - www.freepik.es</a>
+  <a href="https://www.freepik.es/fotos/hombre">Foto de Hombre creado por freepik - www.freepik.es</a>
+  <a href="https://www.freepik.es/fotos/hombre">Foto de Hombre creado por freepik - www.freepik.es</a>
+</footer>
 </html>
