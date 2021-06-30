@@ -16,6 +16,10 @@ h1,h2,h3,h4,h5{
     background-blend-mode: darken;
 }
 
+.head{
+    background-color: rgb(35, 35, 35);
+}
+
 .cover-small{
     height: 200px;
     background-blend-mode: normal;
@@ -32,15 +36,15 @@ h1,h2,h3,h4,h5{
 
 }
 
-card{
+.card{
     border: 0 !important;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-card-title{
+.card-title{
     min-height: 3rem;
 }
-card-text{
+.card-text{
     min-height: 10rem;
 }
 
